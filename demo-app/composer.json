@@ -1,0 +1,25 @@
+{
+    "name": "bristolphptraining/bad-code",
+    "description": "Sample bad code for trying out static analysis tools on",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "symfony/console": "^4.0",
+        "webmozart/assert": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "BristolPhpTraining\\BadCode\\" : "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+          "BristolPhpTraining\\BadCode\\Tests\\" : "test/"
+        }
+    }
+}
